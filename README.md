@@ -51,4 +51,4 @@ I would like to contribute with ideas or suggestions, open an issue and start th
 
 # license
 
-- MIT
+- [MIT](https://github.com/Diego-Brocanelli/decimal-time/blob/master/LICENSE)
