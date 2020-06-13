@@ -1,5 +1,5 @@
 {
-    "name": "bnw/bnw-decimal-to-time-converter",
+    "name": "bnw/decimal-time",
     "description": "Easy-to-use tool for converting decimal values to time",
     "type": "library",
     "license": "MIT",
