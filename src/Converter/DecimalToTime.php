@@ -13,7 +13,8 @@ class DecimalToTime
     /**
      * Responsible for converting the decimal value to time
      *
-     * @param  float $value
+     * @param float $value
+     * 
      * @return string
      */
     public function convert(float $value) : string
@@ -24,7 +25,7 @@ class DecimalToTime
 
         $hours = $formater->strPadLeft($valueExplode[0], 2);
         // If the value contains only hours.
-        if( count($valueExplode) == 1){
+        if ( count($valueExplode) == 1) {
             return $formater->toHours($hours);
         }
 
