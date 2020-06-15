@@ -1,0 +1,27 @@
+{
+    "name": "bnw/decimal-time",
+    "description": "Easy-to-use tool for converting decimal values to time",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Diego Brocanelli",
+            "email": "diego.brocanelli@buenonetworks.com.br"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "BNW\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    },
+    "scripts":{
+        "tests":"vendor/bin/phpunit tests/"
+    }
+}
