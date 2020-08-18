@@ -1,8 +1,8 @@
-# BNW: Conversor de decimal para tempo
-
-<p align="center" > 
+<p > 
     <img src="https://buenonetworks.com.br/img/logo_bueno_networks_.png">
 </p>
+
+# BNW: Conversor de decimal para tempo
 
 ![PHP Version](https://img.shields.io/badge/php-%5E7.2.0-blue)
 ![License](https://img.shields.io/badge/license-MIT-blue)
