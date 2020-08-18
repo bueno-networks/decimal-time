@@ -19,6 +19,8 @@ class DecimalToTime
      */
     public function convert(float $value) : string
     {
+        $value = str_replace(',', '.', $value);
+
         $formater = new Formater();
 
         $valueExplode = explode('.', (string)$value);

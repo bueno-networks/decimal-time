@@ -1,24 +1,34 @@
-# Convert decimal to time
+# BNW: Conversor de decimal para tempo
 
-Easy-to-use tool for converting decimal values to time
+<p style="text-align:center;">
+    <a ref="https://buenonetworks.com.br" target="_blank">
+        <img src="https://buenonetworks.com.br/img/logo_bueno_networks_.png">
+    </a>
+</p>
 
-# Require
+![PHP Version](https://img.shields.io/badge/php-%5E7.2.0-blue)
+![License](https://img.shields.io/badge/license-MIT-blue)
+![TDD](https://img.shields.io/badge/tdd-Tested%20100%25-blue)
 
-Below are the minimum settings for using the tool.
+Ferramenta de fácil uso para conversão de decimal para tempo.
 
-- PHP >= 7.1.
+## Requisitos
 
-# How to install
+Abaixo estão as configurações mínimas para usar a ferramenta.
 
-To install the package in your project, just run the command below at the root of your project.
+- PHP >= 7.2.
+
+## Como instalar
+
+Para instalar o pacote em seu projeto, basta executar o comando abaixo na raiz do seu projeto.
 
 ```bash
 composer require bnw/decimal-to-time-converter
 ```
 
-# How to use
+## Como utilizar
 
-Below is an example of how to use the tool.
+Abaixo está um exemplo de como usar a ferramenta.
 
 ```php
 <?php 
@@ -28,27 +38,25 @@ require_once __DIR__.'/vendor/autoload.php';
 use BNW\Converter\DecimalToTime;
 
 $converter = new DecimalToTime();
-$converter->convert(0.08); // 00:05
-$converter->convert(0.17); // 00:10
-$converter->convert(1.5); // 01:30
+$converter->convert(0.08);   // 00:05
+$converter->convert(0.17);   // 00:10
+$converter->convert(1.5);    // 01:30
 $converter->convert(246.70); // 246:42
 
 ```
 
-# Run tests
+## Como contribuir
 
-Fork the project, and perform the clone.
+Caso queira contribuir com ideias ou sugestões, por favor abra uma issue para iniciarmos um diálogo junto a equipe de desenvolvimento.
 
-To run the test battery, run the command below at the project root.
+## Executando os testes
+
+Para executar a bateria de testes, execute o comando abaixo na raiz do projeto.
 
 ```bash
 composer tests
 ```
 
-# How to contribute
+## Créditos
 
-I would like to contribute with ideas or suggestions, open an issue and start the conversation with the development team.
-
-# license
-
-- [MIT](https://github.com/Diego-Brocanelli/decimal-time/blob/master/LICENSE)
+Orgulhosamente desenvolvido pela equipe da [Bueno Networks](http://www.buenonetworks.com.br)
