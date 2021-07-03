@@ -1,32 +1,24 @@
-<p > 
-    <img src="https://buenonetworks.com.br/img/logo_bueno_networks_.png">
-</p>
+# Convert decimal to time
 
-# BNW: Conversor de decimal para tempo
+Easy-to-use tool for converting decimal values to time
 
-![PHP Version](https://img.shields.io/badge/php-%5E7.2.0-blue)
-![License](https://img.shields.io/badge/license-MIT-blue)
-![TDD](https://img.shields.io/badge/tdd-Tested%20100%25-blue)
+# Require
 
-Ferramenta de fácil uso para conversão de decimal para tempo.
+Below are the minimum settings for using the tool.
 
-## Requisitos
+- PHP >= 7.4.
 
-Abaixo estão as configurações mínimas para usar a ferramenta.
+# How to install
 
-- PHP >= 7.2.
-
-## Como instalar
-
-Para instalar o pacote em seu projeto, basta executar o comando abaixo na raiz do seu projeto.
+To install the package in your project, just run the command below at the root of your project.
 
 ```bash
 composer require bnw/decimal-to-time-converter
 ```
 
-## Como utilizar
+# How to use
 
-Abaixo está um exemplo de como usar a ferramenta.
+Below is an example of how to use the tool.
 
 ```php
 <?php 
@@ -36,25 +28,27 @@ require_once __DIR__.'/vendor/autoload.php';
 use BNW\Converter\DecimalToTime;
 
 $converter = new DecimalToTime();
-$converter->convert(0.08);   // 00:05
-$converter->convert(0.17);   // 00:10
-$converter->convert(1.5);    // 01:30
+$converter->convert(0.08); // 00:05
+$converter->convert(0.17); // 00:10
+$converter->convert(1.5); // 01:30
 $converter->convert(246.70); // 246:42
 
 ```
 
-## Como contribuir
+# Run tests
 
-Caso queira contribuir com ideias ou sugestões, por favor abra uma issue para iniciarmos um diálogo junto a equipe de desenvolvimento.
+Fork the project, and perform the clone.
 
-## Executando os testes
-
-Para executar a bateria de testes, execute o comando abaixo na raiz do projeto.
+To run the test battery, run the command below at the project root.
 
 ```bash
 composer tests
 ```
 
-## Créditos
+# How to contribute
 
-Orgulhosamente desenvolvido pela equipe da [Bueno Networks](http://www.buenonetworks.com.br)
+I would like to contribute with ideas or suggestions, open an issue and start the conversation with the development team.
+
+# license
+
+- [MIT](https://github.com/bueno-networks/decimal-time/blob/master/LICENSE)
