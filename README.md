@@ -1,3 +1,7 @@
+<a href="https://buenonetworks.com.br/">
+    <img src="https://buenonetworks.com.br/img/logo_bueno_networks_.png">
+</a>
+
 # Convert decimal to time
 
 Easy-to-use tool for converting decimal values to time
@@ -6,7 +10,7 @@ Easy-to-use tool for converting decimal values to time
 
 Below are the minimum settings for using the tool.
 
-- PHP >= 7.1.
+- PHP >= 7.4.
 
 # How to install
 
@@ -51,4 +55,4 @@ I would like to contribute with ideas or suggestions, open an issue and start th
 
 # license
 
-- [MIT](https://github.com/Diego-Brocanelli/decimal-time/blob/master/LICENSE)
+- [MIT](https://github.com/bueno-networks/decimal-time/blob/master/LICENSE)

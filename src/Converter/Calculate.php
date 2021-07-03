@@ -1,4 +1,6 @@
-<?php declare(strict_types=1);
+<?php
+
+declare(strict_types=1);
 
 namespace BNW\Converter;
 
@@ -9,13 +11,13 @@ class Calculate
 {
     /**
      * Responsible for calculating the value for minute
-     * 
-     * @example$value = '34'; return 20
+     *
+     * @example $value = '34'; return 20
      *
      * @param  string $value
      * @return integer
      */
-    public function toMinutes(string $value) : int
+    public function toMinutes(string $value): int
     {
         $value = "0.{$value}";
         $value = (float)$value;
